@@ -108,6 +108,7 @@ function IntroCard({ onNext }: { onNext: () => void }) {
             threshold={0.1}
             rootMargin="-50px"
             textAlign="center"
+            onLetterAnimationComplete={() => {}}
           />
           <p className="for-line fade-in-up delay-2">for Mum ♡</p>
 
